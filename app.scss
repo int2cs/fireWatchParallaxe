@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$primary: rgb(45, 17, 43);
+
+body {
+  min-height: 200vh;
+}
+
+header {
+  min-height: 100vh;
+  max-width: 1550px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background: #fedcc8;
+
+  img {
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+    height: 300px;
+    transform: scale(1.5);
+  }
+
+  .cloud {
+    bottom: 145px;
+  }
+}
+section {
+  min-height: 100vh;
+  max-width: 1550px;
+  margin: auto;
+  padding-top: 50px;
+  background: $primary;
+}
